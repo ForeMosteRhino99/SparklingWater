@@ -36,7 +36,7 @@ nav a {
     color: var(--white-color);
     text-decoration: none;
     transition: background-color 0.3s ease;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }
 
 nav a:hover {
@@ -49,6 +49,3 @@ section {
     min-height: 400px;
     background-color: white;
 }
-#about-me { background-color: #e0f7fa; }
-#projects { background-color: #e8f5e9; }
-#contact { background-color: #fffde7; }

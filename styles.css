@@ -47,7 +47,6 @@ section {
     padding: 60px 20px;
     min-height: 400px;
     background-color: white;
-    border-bottom: 1px solid #ddd;
 }
 #about-me { background-color: #e0f7fa; }
 #projects { background-color: #e8f5e9; }

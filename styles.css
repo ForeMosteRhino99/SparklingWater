@@ -14,7 +14,7 @@
 header {
     background-color: rgb(32, 0, 107);
     color: var(--white-color);
-    padding: 1.2em;
+    padding: 0.5em;
 }
 
 body {
@@ -32,7 +32,7 @@ nav ul {
 
 nav a {
     display: block;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     color: var(--white-color);
     text-decoration: none;
     transition: background-color 0.3s ease;

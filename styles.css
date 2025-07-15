@@ -36,11 +36,12 @@ nav a {
     color: var(--white-color);
     text-decoration: none;
     transition: background-color 0.3s ease;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 nav a:hover {
     border-radius: 5px;
+    background-color: var(--black-color);
 }
 
 section {

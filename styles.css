@@ -1,5 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black-color: black;
+    --white-color: white;
+}
+
+header {
+    background-color: rgb(32, 0, 107);
+    color: var(--white-color);
+}
+
 body {
     margin: 0;
-    background: black;
-    text-align: center;
+    background-color: var(--black-color);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 1em;
+    color: var(--white-color);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
 }

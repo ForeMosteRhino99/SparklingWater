@@ -72,3 +72,8 @@ section {
     text-align: left;
     margin-right: auto;
 }
+
+#projects-title {
+    text-align: left;
+    font-size: 1.4rem;
+}
